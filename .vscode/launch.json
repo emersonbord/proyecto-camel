@@ -1,0 +1,91 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ObjectToActiveMq",
+            "request": "launch",
+            "mainClass": "org.apache.camel.ejemplo_active_mq.ObjectToActiveMq",
+            "projectName": "primer-proyecto-camel"
+        },
+        {
+            "type": "java",
+            "name": "AplicacionRest",
+            "request": "launch",
+            "mainClass": "org.apache.camel.rest.AplicacionRest",
+            "projectName": "primer-proyecto-camel"
+        },
+        {
+            "type": "java",
+            "name": "FileToActiveMq",
+            "request": "launch",
+            "mainClass": "org.apache.camel.ejemplo_activar_active_mq.FileToActiveMq",
+            "projectName": "primer-proyecto-camel"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AplicacionRest",
+            "request": "launch",
+            "mainClass": "org.apache.camel.AplicacionRest",
+            "projectName": "primer-proyecto-camel"
+        },
+        {
+            "type": "java",
+            "name": "ActivarMq",
+            "request": "launch",
+            "mainClass": "org.apache.camel.ejemplo_activar_active_mq.ActivarMq",
+            "projectName": "primer-proyecto-camel"
+        },
+        {
+            "type": "java",
+            "name": "ConsumingMessage",
+            "request": "launch",
+            "mainClass": "org.apache.camel.ejemplo_activar_active_mq.ConsumingMessage",
+            "projectName": "primer-proyecto-camel"
+        },
+        {
+            "type": "java",
+            "name": "ObjectToActiveMq",
+            "request": "launch",
+            "mainClass": "org.apache.camel.ejemplo_activar_active_mq.ObjectToActiveMq",
+            "projectName": "primer-proyecto-camel"
+        },
+        {
+            "type": "java",
+            "name": "CopiaArchivo",
+            "request": "launch",
+            "mainClass": "org.apache.camel.ejemplo_copia.CopiaArchivo",
+            "projectName": "primer-proyecto-camel"
+        },
+        {
+            "type": "java",
+            "name": "Practica",
+            "request": "launch",
+            "mainClass": "org.apache.camel.ejemplo_learn.Practica",
+            "projectName": "primer-proyecto-camel"
+        },
+        {
+            "type": "java",
+            "name": "ProducerConsumerTemplateEj",
+            "request": "launch",
+            "mainClass": "org.apache.camel.ejemplo_producer_consumer_template.ProducerConsumerTemplateEj",
+            "projectName": "primer-proyecto-camel"
+        },
+        {
+            "type": "java",
+            "name": "MainApp",
+            "request": "launch",
+            "mainClass": "org.apache.camel.learn.MainApp",
+            "projectName": "primer-proyecto-camel"
+        }
+    ]
+}
